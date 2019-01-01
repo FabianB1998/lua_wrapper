@@ -1,0 +1,8 @@
+[package]
+name = "lua_wrapper"
+version = "0.1.0"
+authors = ["fabian"]
+edition = "2018"
+
+[dependencies]
+rlua = "0.15.3"
