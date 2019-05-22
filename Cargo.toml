@@ -1,6 +1,6 @@
 [package]
 name = "lua_wrapper"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["fabian <fabian@fabianbrand.de>"]
 edition = "2018"
 description = "Exposes some useful macros for embedding lua in your rust code"
@@ -8,5 +8,5 @@ homepage = "https://github.com/FabianB1998/lua_wrapper"
 repository = "https://github.com/FabianB1998/lua_wrapper"
 license = "MIT"
 
-[dependencies]
-rlua = "0.15.3"
+[dev-dependencies]
+rlua = "0.16.3"
